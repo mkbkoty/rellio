@@ -1,0 +1,8 @@
+# Konfiguracja dla Railway / Nixpacks
+# Zapewnia, że ffmpeg jest dostępny w środowisku uruchomieniowym.
+
+[phases.setup]
+nixPkgs = ["ffmpeg", "nodejs_20"]
+
+[start]
+cmd = "node server.js"

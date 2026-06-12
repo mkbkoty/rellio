@@ -1,0 +1,21 @@
+{
+  "name": "reelio-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reelio - generator filmow AI z lektorem i napisami dla Shorts/TikTok",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.2.0",
+    "express": "^4.19.2",
+    "execa": "^9.3.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.55.0",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
